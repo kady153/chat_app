@@ -18,7 +18,7 @@ class User(Base):
     email = Column(String(250), nullable=False)
     picture = Column(String(250))	
 
-
+'''class for post'''
 class Item(Base):
 	__tablename__="item"
 	name=Column(String(40),nullable=False)
